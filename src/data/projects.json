@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Bike Sharing System",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project with bike rentals,secure verification, and advanced tracking.",
+    "skills": ["HTML", "CSS", "JavaScript","Java","MySQL"],
+    "demo": "https://github.com/Anjana-Anju7/Bikeshare",
+    "source": "https://github.com/Anjana-Anju7/Bikeshare"
+  },
+  {
+    "title": "Netflix Clone",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project allowing users to access movie listings with descriptions and integrated trailers ",
+    "skills": ["React","Nodejs", "CSS", "HTML"],
+    "demo": "https://anjana-anju7.github.io/Netflix/",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Sales Insights Using SQL",
+    "imageSrc": "projects/project.png",
+    "description": "Data Analysis sales transactions, customers, products and market information of Atliq",
+    "skills": ["SQL","Tableau","SQL Server"],
+    "demo": "https://github.com/Anjana-Anju7/Sales-Insights-Using-SQL",
+    "source": "https://github.com/Anjana-Anju7/Sales-Insights-Using-SQL"
+  }
+]

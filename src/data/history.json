@@ -1,0 +1,11 @@
+[
+  {
+    "role": "Software Engineer",
+    "organisation": "Lamplighters Tech Private Ltd",
+    "startDate": "Jul, 2020",
+    "endDate": "Dec, 2021",
+    "experiences": ["Developed responsive web applications", "Hosted weekly stand-ups and reviews","Presented web applications to clients"],
+    "imageSrc": "history/lamps.jpeg"
+  }
+  
+]

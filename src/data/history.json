@@ -1,11 +1,30 @@
 [
   {
     "role": "Software Engineer",
-    "organisation": "Lamplighters Tech Private Ltd",
-    "startDate": "Jul, 2020",
-    "endDate": "Dec, 2021",
-    "experiences": ["Developed responsive web applications", "Hosted weekly stand-ups and reviews","Presented web applications to clients"],
-    "imageSrc": "history/lamps.jpeg"
+    "organisation": "Project Brains Private Limited",
+    "startDate": "Sep 2024",
+    "endDate": "Present",
+    "imageSrc": "history/image.png",
+    "experiences": [
+      "Engineering semantic search for specialist discovery using OpenAI embeddings and Pinecone vector database, significantly improving search relevance over keyword matching",
+      "Built React & TypeScript application with custom Node.js REST APIs integrated with backend services",
+      "Developed HTML/CSS templates for marketing campaigns, validated across multiple rendering platforms",
+      "Hosts Agile scrum stand-ups and presents web applications to clients and stakeholders",
+      "Manages end-to-end deployment on Render cloud; proficient in React unit testing"
+    ]
+  },
+  {
+    "role": "Software Engineer",
+    "organisation": "Lamp Lighters Tech Private Limited",
+    "startDate": "Jul 2020",
+    "endDate": "Dec 2021",
+    "imageSrc": "history/lamps.jpeg",
+    "experiences": [
+      "Implemented responsive web applications using Angular, React, TypeScript, HTML and CSS",
+      "Built scalable RESTful APIs using Java Spring MVC; proficient in MySQL queries and database design",
+      "Delivered UI/UX improvements that increased user satisfaction scores by 25% based on feedback surveys",
+      "Conducted Angular unit testing with Jasmine; participated in Agile scrum, code reviews and stand-ups",
+      "Presented web applications to clients and stakeholders"
+    ]
   }
-  
 ]

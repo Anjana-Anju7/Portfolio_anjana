@@ -1,11 +1,60 @@
 :root {
-  /* Colours */
-  --color-text: #fff;
-  --color-primary: #576cbc;
+  /* Core Colors */
+  --color-text: #f0f4ff;
+  --color-text-muted: rgba(240, 244, 255, 0.65);
+  --color-primary: #6c7fff;
+  --color-primary-hover: #8b9fff;
   --color-secondary: #19376d;
   --color-dark: #0b2447;
-  --color-bg: #04152d;
+  --color-bg: #040d1e;
+
+  /* Gradients */
+  --gradient-primary: linear-gradient(135deg, #6c7fff 0%, #a78bfa 100%);
+  --gradient-hero: linear-gradient(135deg, #040d1e 0%, #0b2447 50%, #040d1e 100%);
+  --gradient-card: linear-gradient(145deg, rgba(108, 127, 255, 0.12) 0%, rgba(167, 139, 250, 0.05) 100%);
+  --gradient-accent: linear-gradient(90deg, #6c7fff, #a78bfa, #60d4fa);
+
+  /* Glass */
+  --glass-bg: rgba(255, 255, 255, 0.04);
+  --glass-border: rgba(255, 255, 255, 0.1);
+  --glass-hover: rgba(108, 127, 255, 0.12);
+
+  /* Shadows */
+  --shadow-sm: 0 2px 12px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 8px 32px rgba(0, 0, 0, 0.4);
+  --shadow-glow: 0 0 30px rgba(108, 127, 255, 0.25);
+  --shadow-glow-hover: 0 0 50px rgba(108, 127, 255, 0.4);
+
+  /* Border Radius */
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-pill: 100px;
+
+  /* Transitions */
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.3s ease;
+  --transition-slow: 0.5s ease;
 
   /* Fonts */
-  --font-roboto: "Roboto";
+  --font-primary: "Outfit", "Inter", Arial, sans-serif;
+  --font-roboto: "Roboto", sans-serif;
+
+  /* Section Spacing */
+  --section-padding-x: 10%;
+  --section-padding-y: 80px;
+}
+
+@media (max-width: 830px) {
+  :root {
+    --section-padding-x: 6%;
+    --section-padding-y: 60px;
+  }
+}
+
+@media (max-width: 600px) {
+  :root {
+    --section-padding-x: 5%;
+    --section-padding-y: 48px;
+  }
 }

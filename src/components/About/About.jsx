@@ -1,5 +1,4 @@
 import React from "react";
-
 import styles from "./About.module.css";
 import { getImageUrl } from "../../utils";
 
@@ -10,37 +9,39 @@ export const About = () => {
       <div className={styles.content}>
         <img
           src={getImageUrl("about/aboutImage.png")}
-          alt="Me sitting with a laptop"
+          alt="Anjana working"
           className={styles.aboutImage}
         />
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
+            <img src={getImageUrl("about/cursorIcon.png")} alt="Frontend icon" />
             <div className={styles.aboutItemText}>
               <h3>Frontend Developer</h3>
               <p>
-                I'm a frontend developer with experience in building responsive
-                and optimized sites
+                Experienced in building performant, accessible UIs with React,
+                TypeScript, Angular and modern CSS — including AI-powered
+                interfaces.
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" />
+            <img src={getImageUrl("about/serverIcon.png")} alt="Backend icon" />
             <div className={styles.aboutItemText}>
-              <h3>Backend Developer</h3>
+              <h3>Backend &amp; Cloud Engineer</h3>
               <p>
-                I have experience developing fast and optimised back-end systems
-                and APIs
+                Skilled in Node.js REST APIs, Java Spring MVC, SQL &amp;
+                MongoDB databases, and deploying on Azure, Render, and Vercel.
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/cursorIcon.png")} alt="UI icon" />
+            <img src={getImageUrl("about/cursorIcon.png")} alt="AI icon" />
             <div className={styles.aboutItemText}>
-              <h3>UI Designer</h3>
+              <h3>AI &amp; Search Engineer</h3>
               <p>
-                I have designed multiple landing pages and have created design
-                systems as well
+                Integrating LLMs, OpenAI embeddings, and Pinecone vector
+                databases to build intelligent semantic search and AI-powered
+                features.
               </p>
             </div>
           </li>

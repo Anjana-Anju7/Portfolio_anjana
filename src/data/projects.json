@@ -1,26 +1,43 @@
 [
   {
-    "title": "Bike Sharing System",
+    "title": "AI Resume Analyser",
     "imageSrc": "projects/project.png",
-    "description": "This is a project with bike rentals,secure verification, and advanced tracking.",
-    "skills": ["HTML", "CSS", "JavaScript","Java","MySQL"],
+    "description": "Full-stack application integrating Claude Sonnet via Puter.js for AI-powered resume analysis. Features cloud file storage, user authentication, and client-side PDF-to-image conversion using PDF.js. Deployed on Vercel.",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Puter.js",
+      "Claude AI",
+      "PDF.js"
+    ],
+    "demo": "https://resumeanalyser-gamma.vercel.app",
+    "source": "https://github.com/Anjana-Anju7/Resume-Analyser"
+  },
+  {
+    "title": "Bicycle Sharing App",
+    "imageSrc": "projects/project.png",
+    "description": "A bicycle sharing application enabling riders to hire and return bicycles at stations, with secure verification and real-time tracking.",
+    "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Java",
+      "MySQL"
+    ],
     "demo": "https://github.com/Anjana-Anju7/Bikeshare",
     "source": "https://github.com/Anjana-Anju7/Bikeshare"
   },
   {
     "title": "Netflix Clone",
     "imageSrc": "projects/project.png",
-    "description": "This is a project allowing users to access movie listings with descriptions and integrated trailers ",
-    "skills": ["React","Nodejs", "CSS", "HTML"],
+    "description": "A streaming platform clone allowing users to browse movie listings with descriptions and watch integrated trailers, built with a Netflix-inspired UI.",
+    "skills": [
+      "React",
+      "Node.js",
+      "CSS",
+      "HTML"
+    ],
     "demo": "https://anjana-anju7.github.io/Netflix/",
-    "source": "https://www.github.com"
-  },
-  {
-    "title": "Sales Insights Using SQL",
-    "imageSrc": "projects/project.png",
-    "description": "Data Analysis sales transactions, customers, products and market information of Atliq",
-    "skills": ["SQL","Tableau","SQL Server"],
-    "demo": "https://github.com/Anjana-Anju7/Sales-Insights-Using-SQL",
-    "source": "https://github.com/Anjana-Anju7/Sales-Insights-Using-SQL"
+    "source": "https://github.com/Anjana-Anju7"
   }
 ]

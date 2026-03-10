@@ -1,10 +1,10 @@
 [
   {
-    "title": "HTML",
+    "title": "JavaScript",
     "imageSrc": "skills/html.png"
   },
   {
-    "title": "CSS",
+    "title": "TypeScript",
     "imageSrc": "skills/css.png"
   },
   {
@@ -12,7 +12,7 @@
     "imageSrc": "skills/react.png"
   },
   {
-    "title": "Node",
+    "title": "Node.js",
     "imageSrc": "skills/node.png"
   },
   {
@@ -20,13 +20,35 @@
     "imageSrc": "skills/angular.jpg"
   },
   {
+    "title": "Java",
+    "imageSrc": "skills/java.png"
+  },
+  {
+    "title": "Next.js",
+    "imageSrc": "skills/react.png"
+  },
+  {
     "title": "MongoDB",
     "imageSrc": "skills/mongodb.png"
   },
- 
-
+  {
+    "title": "PostgreSQL",
+    "imageSrc": "skills/sql.jpeg"
+  },
+  {
+    "title": "Azure",
+    "imageSrc": "skills/azure.png"
+  },
+  {
+    "title": "Docker",
+    "imageSrc": "skills/docker.png"
+  },
   {
     "title": "Figma",
     "imageSrc": "skills/figma.png"
+  },
+   {
+    "title": "Google Cloud",
+    "imageSrc": "skills/google-cloud.png"
   }
 ]

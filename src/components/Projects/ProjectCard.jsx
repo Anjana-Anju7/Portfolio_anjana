@@ -1,5 +1,4 @@
 import React from "react";
-
 import styles from "./ProjectCard.module.css";
 import { getImageUrl } from "../../utils";
 
@@ -8,29 +7,35 @@ export const ProjectCard = ({
 }) => {
   return (
     <div className={styles.container}>
-      <img
-        src={getImageUrl(imageSrc)}
-        alt={`Image of ${title}`}
-        className={styles.image}
-      />
-      <h3 className={styles.title}>{title}</h3>
-      <p className={styles.description}>{description}</p>
-      <ul className={styles.skills}>
-        {skills.map((skill, id) => {
-          return (
+      <div className={styles.imageWrapper}>
+        <img
+          src={getImageUrl(imageSrc)}
+          alt={`Screenshot of ${title}`}
+          className={styles.image}
+        />
+      </div>
+      <div className={styles.body}>
+        <h3 className={styles.title}>{title}</h3>
+        <p className={styles.description}>{description}</p>
+        <ul className={styles.skills}>
+          {skills.map((skill, id) => (
             <li key={id} className={styles.skill}>
               {skill}
             </li>
-          );
-        })}
-      </ul>
-      <div className={styles.links}>
-        <a href={demo} className={styles.link}>
-          Source
-        </a>
-        {/* <a href={source} className={styles.link}>
-          Source
-        </a> */}
+          ))}
+        </ul>
+        <div className={styles.links}>
+          {demo && (
+            <a href={demo} target="_blank" rel="noreferrer" className={styles.link}>
+              Demo
+            </a>
+          )}
+          {source && source !== demo && (
+            <a href={source} target="_blank" rel="noreferrer" className={styles.linkOutline}>
+              Source
+            </a>
+          )}
+        </div>
       </div>
     </div>
   );

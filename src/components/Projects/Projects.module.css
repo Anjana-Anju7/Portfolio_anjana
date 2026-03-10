@@ -1,26 +1,41 @@
 @import "../../vars.css";
 
 .container {
-  margin-top: 76px;
+  padding: var(--section-padding-y) var(--section-padding-x);
   color: var(--color-text);
-  margin-left: 10%;
-  margin-right: 10%;
 }
 
 .title {
-  font-size: 35px;
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
   font-weight: 700;
-  letter-spacing: 1.75px;
+  letter-spacing: 3px;
   text-transform: uppercase;
+  background: var(--gradient-accent);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 48px;
 }
 
 .projects {
-  margin-top: 37px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 15px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
   width: 100%;
+}
+
+/* Tablet */
+@media screen and (max-width: 960px) {
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 600px) {
+  .projects {
+    grid-template-columns: 1fr;
+    max-width: 420px;
+    margin: 0 auto;
+  }
 }

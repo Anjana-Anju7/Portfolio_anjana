@@ -2,16 +2,19 @@
   {
     "title": "AI Resume Analyser",
     "imageSrc": "projects/project.png",
-    "description": "Full-stack application integrating Claude Sonnet via Puter.js for AI-powered resume analysis. Features cloud file storage, user authentication, and client-side PDF-to-image conversion using PDF.js. Deployed on Vercel.",
+    "description": "A full-stack resume intelligence platform using GPT-4o to score, analyse, and rewrite CVs against job descriptions, with ATS checks, OAuth auth, and real time queue based processing.",
     "skills": [
       "React",
       "TypeScript",
-      "Puter.js",
-      "Claude AI",
-      "PDF.js"
+      "Node.js",
+      "PostgreSQL",
+      "GPT-4o",
+      "Tailwind CSS",
+      "Prisma",
+      "Redis"
     ],
-    "demo": "https://resumeanalyser-gamma.vercel.app",
-    "source": "https://github.com/Anjana-Anju7/Resume-Analyser"
+    "demo": "https://ai-cv-analyser-seven.vercel.app",
+    "source": "https://github.com/Anjana-Anju7/AI_CV_Analyser"
   },
   {
     "title": "Bicycle Sharing App",

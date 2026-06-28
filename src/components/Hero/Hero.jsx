@@ -10,10 +10,10 @@ export const Hero = () => {
         <h1 className={styles.title}>Anjana Edwin</h1>
         <p className={styles.description}>
           Experienced full-stack engineer with 3+ years of expertise in software
-          design, frontend &amp; backend development — specialised in{" "}
+          design, frontend &amp; backend development, specialised in{" "}
           <strong>React, TypeScript, Node.js</strong> and{" "}
           <strong>Azure cloud</strong>. Skilled in AI, LLM &amp; Machine
-          Learning, driving innovation and delivering high-quality solutions.
+          Learning, driving innovation and delivering high quality solutions.
         </p>
         <div className={styles.ctaGroup}>
           <a href="mailto:anjanaedwin@gmail.com" className={styles.contactBtn}>

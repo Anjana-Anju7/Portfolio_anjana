@@ -19,7 +19,7 @@ export const About = () => {
               <h3>Frontend Developer</h3>
               <p>
                 Experienced in building performant, accessible UIs with React,
-                TypeScript, Angular and modern CSS — including AI-powered
+                TypeScript, Angular and modern CSS, including AI-powered
                 interfaces.
               </p>
             </div>
